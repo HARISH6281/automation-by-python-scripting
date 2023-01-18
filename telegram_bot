@@ -1,1 +1,21 @@
 pg.leftclick(coordinates x and y ,how many clicks,duration)
+import pyautogui
+import time
+
+time.sleep(5)
+#print(pyautogui.position())
+
+pyautogui.moveTo(1414,1053,2)
+time.sleep(2)
+pyautogui.click()
+
+#coordinates,clicks,duration
+#pyautogui.leftclick(1414,1053,1,2)
+
+pyautogui.moveTo(297,129,2)
+time.sleep(1)
+pyautogui.click()
+
+for i in range(20):
+    pyautogui.typewrite("HI")
+    pyautogui.press("enter")
